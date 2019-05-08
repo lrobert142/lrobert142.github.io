@@ -1,28 +1,4 @@
-# end2end Clean Jekyll theme [![Build Status](https://travis-ci.org/nandomoreirame/end2end.svg?branch=master)](https://travis-ci.org/nandomoreirame/end2end)
-
-
-
-* [x] Clean layout
-* [x] Resposive layout
-* [x] Preprocessor SASS
-* [x] CSS minified
-* [x] Pagination
-* [x] Syntax highlight
-* [x] Author config
-* [x] Comments with Disqus
-* [ ] Search posts
-* [ ] Share posts
-
----
-
-### Start in 4 steps
-
-1. Download or clone repo `git clone git@github.com:nandomoreirame/end2end.git`
-2. Enter the folder: `cd end2end/`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve`
-
-Access, [localhost:4000/end2end](http://localhost:4000/end2end)
+# Personal Website
 
 ### Deploy in Github pages in 2 steps
 
@@ -38,20 +14,6 @@ Access, [localhost:4000/end2end](http://localhost:4000/end2end)
 
 ---
 
-### Demo and Download
-
-[Demo](https://nandomoreirame.github.io/end2end/)
-[Download](https://github.com/nandomoreirame/end2end/archive/master.zip)
-
-![end2end - free Jekyll theme](/screenshot.png)
-
----
-
 ### Copyright and license
 
 It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `source/_layouts/default.html`
-
-Enjoy :yum:
