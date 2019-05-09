@@ -5,7 +5,9 @@
 //Must be included in order
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import "normalize";
-@import "common";
+@import "main";
 
 //Can be included in any order
-@import "home";
+@import "layouts/home";
+@import "includes/social";
+@import "includes/header";

@@ -1,0 +1,24 @@
+.social-links {
+  list-style: none;
+
+  .social-link {
+    display: inline-block;
+    width: auto;
+    height: auto;
+
+    .svg-icon {
+      $padding: 0.5rem;
+
+      width: calc(#{$padding} * 2 + 16px);
+      height: calc(#{$padding} * 2 + 16px);
+      padding: $padding;
+      stroke: var(--white);
+      fill: var(--white);
+
+      &:hover {
+        opacity: 0.5;
+        transition: opacity 0.5s ease;
+      }
+    }
+  }
+}

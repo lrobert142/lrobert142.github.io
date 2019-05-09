@@ -19,6 +19,10 @@ author_data:
   linkedin_username: lachlan-robertson-31238377
   facebook_username: lachlan.robertson.754
 
+# Header settings
+header_pages:
+  - about
+
 # Build settings
 markdown: kramdown
 plugins:

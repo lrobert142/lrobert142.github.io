@@ -18,35 +18,7 @@
         </div>
     </div>
 
-    <ul class="social-links">
-        {%- if site.author_data.github_username -%}
-        <li class="social-link">
-            <a href="https://github.com/{{ site.author_data.github_username| cgi_escape | escape }}" target="_blank">
-                <svg class="svg-icon">
-                    <use xlink:href="{{ '/assets/images/minima-social-icons.svg#github' | relative_url }}"></use>
-                </svg>
-            </a>
-        </li>
-        {%- endif -%}
-        {%- if site.author_data.linkedin_username -%}
-        <li class="social-link">
-            <a href="https://linkedin.com/in/{{ site.author_data.linkedin_username| cgi_escape | escape }}" target="_blank">
-                <svg class="svg-icon">
-                    <use xlink:href="{{ '/assets/images/minima-social-icons.svg#linkedin' | relative_url }}"></use>
-                </svg>
-            </a>
-        </li>
-        {%- endif -%}
-        {%- if site.author_data.facebook_username -%}
-        <li class="social-link">
-            <a href="https://facebook.com/{{ site.author_data.facebook_username| cgi_escape | escape }}" target="_blank">
-                <svg class="svg-icon">
-                    <use xlink:href="{{ '/assets/images/minima-social-icons.svg#facebook' | relative_url }}"></use>
-                </svg>
-            </a>
-        </li>
-        {%- endif -%}
-    </ul>
+    {%- include social.html -%}
 </main>
 
 </body>
