@@ -13,7 +13,9 @@
         <p class="bio">{{ site.author_data.bio }}</p>
 
         <div class="nav">
-            <a class="button hollow" href="/about">About</a>
+            {%- for item in site.navbar -%}
+                <a class="button hollow" href="{{ item.slug | relative_url }}">{{ item.title }}</a>
+            {%- endfor -%}
             <a class="button hollow" href="mailto:{{ site.email }}?subject=Site Enquiry">Contact</a>
         </div>
     </div>
