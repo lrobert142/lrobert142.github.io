@@ -1,0 +1,27 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+type: portfolio
+---
+
+<div class="container">
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+        {%- for project in site.data.projects -%}
+        <div class="post-content">
+            <a class="logo-container" href="{{ project.url }}">
+                <img class="logo" src="{{ project.image | relative_url }}" alt="{{ project.name }} Logo">
+            </a>
+            <h3 class="name">
+                <a href="{{ project.url }}">{{ project.name }}</a>
+            </h3>
+            <small class="about">{{ project.about }}</small>
+            <p class="description">{{ project.description }}</p>
+            <div class="clearfix"></div>
+        </div>
+        {%- endfor -%}
+    </article>
+</div>

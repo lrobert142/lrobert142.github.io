@@ -21,7 +21,9 @@ author_data:
 
 # Nav settings
 navbar:
-  - slug: about
+  - slug: /portfolio/
+    title: Portfolio
+  - slug: /about/
     title: About
 
 # Build settings

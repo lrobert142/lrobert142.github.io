@@ -17,7 +17,7 @@ Though I know my desire for perfection may be an unobtainable one - after all as
 
 I am well-versed in many techniques both IT- and non-IT-related, but below are just a few of the ones I am most proud of:
 
-- **Honesty and Trust**: No matter the project, honesty is key to trust and trust is key to success, by speaking true and not wasting time mincing words success is well on its way.
+- **Honesty and Trust**: No matter the project, honesty is key to trust and trust is key to success, by speaking true and not wasting time mincing words success all but certain.
 - **English, not Jargon**: I use simple English to explain solutions and situations so that everyone can understand what, why and how instead of burying people in technical nonsense.
 - **Jack-of-all-trades**: Instead of limiting myself to 1 area of expertise, I prefer to be proficient in multiple areas; able to take on all manner of projects no matter what the specifics are.
 - **Never Settle for Second Best**: No matter what, your projects always get the best, using only the best possible techniques and technologies. Half-done is never allowed!

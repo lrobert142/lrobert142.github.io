@@ -1,0 +1,31 @@
+- name: "ParentTV"
+  url: "https://parenttv.com/"
+  image: "/assets/images/projects/parenttv.png"
+  about: "On-demand parenting videos from a wide range of experts on a variety of important topics."
+  description: "As the sole developer for this amazing site, I develop and implement custom solutions to help grow the website and
+  allow it to better serve the crucial needs of all our users. I also work to optimise and maintain the site - reducing
+  load times of critical information and squashing bugs wherever they may hide - and provide valuable technical input on
+  the direction of the site to allow access to the widest possible audience in the most efficient means possible."
+
+- name: "Becon Health"
+  url: "https://beconhealth.com/"
+  image: "/assets/images/projects/beconhealth.jpg"
+  about: "On-demand access to health professionals over video conferencing, allowing support at any time."
+  description: "Providing technical advice and guidance to their lead developer, I ensure that their solutions are the most effective
+  technically possible. Always happy to brainstorm solutions and reevaluate systems already in place, I work alongside
+  them to ensure user data stays secure."
+
+- name: "Adzurra"
+  url: "https://www.adzurra.com/"
+  image: "/assets/images/projects/adzurra.png"
+  about: "The latest in fashion boutiques from Instagram in the palm of your hand, Adzurra makes sure you're always in style."
+  description: "Migrated website from an outdated system to a newer, faster system and optimised website loading to
+  increase site performance by 200%."
+
+- name: "Beam Energy"
+  url: "https://beamenergy.solar/"
+  image: "/assets/images/projects/beamenergy.png"
+  about: "Affordable solar from a range of suppliers with in-depth information showing you exactly what you need."
+  description: "Implemented a design and branding overhaul to better align with their new brand styles in a short period
+  of time."
+
