@@ -8,6 +8,7 @@
 @import "main";
 
 //Can be included in any order
-@import "layouts/home";
-@import "includes/social";
+@import "includes/footer";
 @import "includes/header";
+@import "includes/social";
+@import "layouts/home";
