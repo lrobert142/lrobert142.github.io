@@ -1,0 +1,42 @@
+body[data-page-type='404'] {
+  .container {
+    text-align: center;
+
+    .heading {
+      font-size: 3rem;
+    }
+
+    .error {
+      margin-bottom: 0.5rem;
+    }
+
+    .follow-on {
+      margin-bottom: 2rem;
+    }
+
+    .quote {
+      margin: 0 auto 5rem auto;
+      line-height: 1.7;
+      font-weight: bold;
+      max-width: 500px;
+    }
+  }
+
+  .site-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    .container .quote {
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .site-footer {
+      position: unset;
+    }
+  }
+}

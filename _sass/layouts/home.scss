@@ -56,10 +56,6 @@ body[data-page-type='home'] {
   }
 
   @media (max-width: 1000px) {
-    .centered-container {
-      padding: 0.5rem
-    }
-
     .intro {
       width: auto;
     }
@@ -83,9 +79,6 @@ body[data-page-type='home'] {
   }
 
   @media (max-width: 500px) {
-    .centered-container {
-      padding: 1rem
-    }
     .intro {
       .avatar {
         height: 100px;
