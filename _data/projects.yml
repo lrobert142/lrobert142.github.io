@@ -29,3 +29,9 @@
   description: "Implemented a design and branding overhaul to better align with their new brand styles in a short period
   of time."
 
+- name: "Stickables"
+  url: "http://stickables.com.au/"
+  image: "/assets/images/projects/stickables.png"
+  about: "Customisable wall stickers perfect for expressing yourself."
+  description: "Develop a functional component for a WooCommerce store to allow users to upload and manipulate images on
+  the frontend to design their own entirely custom wall stickers."
